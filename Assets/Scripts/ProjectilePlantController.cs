@@ -24,7 +24,7 @@ public class ProjectilePlantController : PlantController
     void Fire()
     {
         // Spawn projectile
-        GameObject projectileObject = Instantiate(projectilePrefab, GetComponent<Rigidbody2D>().position + new Vector2(0.5f, 0.2f), Quaternion.identity);
+        GameObject projectileObject = Instantiate(projectilePrefab, new Vector2(transform.position.x + 0.5f, transform.position.y + 0.2f), Quaternion.identity);
 
         // Reset time until next fire of plant
         fireTimer = fireInterval;
