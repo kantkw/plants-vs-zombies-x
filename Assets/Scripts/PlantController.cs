@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PlantController : MonoBehaviour
 {
-
     // Maximum health of plant
     public int maxHealth = 300;
 
