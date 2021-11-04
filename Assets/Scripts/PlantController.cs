@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PlantController : MonoBehaviour
 {
-    Rigidbody2D rb2D;
 
     // Maximum health of plant
     public int maxHealth = 300;
@@ -14,8 +13,6 @@ public class PlantController : MonoBehaviour
 
     void Awake()
     {
-        rb2D = GetComponent<Rigidbody2D>();
-
         // Set health to maximum health at spawn
         health = maxHealth;
     }
