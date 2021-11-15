@@ -123,5 +123,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 300
-  fireInterval: 1
+  fireInterval: 1.5
   projectilePrefab: {fileID: 4452922774649910797, guid: efb5dd42740979a47a735ada4f8d3992, type: 3}
+  projectileSpawnLocation: {x: 0.45, y: 0.26}
